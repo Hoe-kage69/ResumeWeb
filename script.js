@@ -38,7 +38,7 @@ function setTheme(mode) {
     localStorage.setItem('theme', mode)
 }
 
-const submit = document.querySelector("#submit-btn")
+const submit = document.querySelector("#submit")
 
 submit.addEventListener("click", (e) => {
     e.preventDefault();
